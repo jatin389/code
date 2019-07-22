@@ -1,0 +1,10 @@
+Sieve of Eratosthenes:
+
+The Sieve of Eratosthenes can be used to find all the prime numbers less than or equal to a given number N. It can also be used to find out if a number is prime or not, by just looking up at the sieve.
+
+The basic idea behind the sieve of eratosthenes is that at each iteration, we pick one prime number and eliminate all the multiples of that prime number. After the elimination process ends, all the unmarked numbers which are left are prime!
+
+Pseudo Code:
+Mark all the numbers as prime numbers.
+Traverse over all the prime numbers smaller than sqrt(N).
+Mark the multiple of the prime numbers as composite numbers.
